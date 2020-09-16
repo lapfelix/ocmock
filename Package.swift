@@ -8,6 +8,7 @@ let package = Package(
     products: [
         .library(
             name: "OCMock",
+            type: .dynamic,
             targets: ["OCMock"]
         )
     ],
