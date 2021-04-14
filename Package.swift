@@ -31,7 +31,6 @@ let package = Package(
             publicHeadersPath: ".",
             cSettings: [
                 .headerSearchPath("./"),
-                .unsafeFlags(["-fno-objc-arc"])
             ],
             cxxSettings: nil,
             swiftSettings: nil,
